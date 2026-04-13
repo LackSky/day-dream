@@ -1,1 +1,7 @@
-
+#include <stdio.h>
+int main(){
+    int a,b;
+    scanf("%d %d",&a,&b);  // 注意："%d %d"后面是逗号，然后是&a,&b
+    printf("%d",a+b);
+    return 0;
+}
